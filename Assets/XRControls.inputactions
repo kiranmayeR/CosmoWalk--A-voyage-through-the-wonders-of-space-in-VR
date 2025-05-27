@@ -1,0 +1,74 @@
+{
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "XRMotion",
+            "id": "6a4f892c-319d-4c47-aca3-5e9fe89cb522",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1eb4fbb6-25e5-41d3-bf6f-6ea729032dd1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "ae91567f-d5f3-42a5-88f6-926dee0f418c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SnapTurn",
+                    "type": "Value",
+                    "id": "c22f3572-692c-462f-8333-dd9b25ea2ccf",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e25f6cd8-440c-4c61-9bf0-dfec404d24d0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b0bbe66-aa6e-45d8-81be-c957759295f1",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8320b357-4c67-439d-8728-dce18e16c06c",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SnapTurn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
